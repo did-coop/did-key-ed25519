@@ -1,0 +1,53 @@
+{
+  "name": "@did.coop/did-key-ed25519",
+  "type": "module",
+  "version": "0.0.9",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "default": "./lib/index.js"
+    },
+    "./did-key": {
+      "types": "./did-key.ts",
+      "default": "./lib/did-key.js"
+    },
+    "./multibase": {
+      "types": "./multibase.ts",
+      "default": "./lib/multibase.js"
+    },
+    "./verifier": {
+      "types": "./verifier.ts",
+      "default": "./lib/verifier.js"
+    },
+    "./types": {
+      "types": "./types.ts",
+      "default": "./types.ts"
+    }
+  },
+  "scripts": {
+    "byexample": "byexample -l javascript README.md",
+    "lint": "eslint *.ts",
+    "test": "glob -c 'node --import tsx --test' '*.test.*'",
+    "tsc": "tsc --build",
+    "prepare": "npm run tsc"
+  },
+  "dependencies": {
+    "@digitalbazaar/did-method-key": "^5.2.0",
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.2.0",
+    "base58-universal": "^2.0.0",
+    "base64url-universal": "^2.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/node": "^22.12.0",
+    "eslint-plugin-jsdoc": "^50.6.1",
+    "glob": "^11.0.2",
+    "typescript-eslint": "^8.20.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT"
+}
