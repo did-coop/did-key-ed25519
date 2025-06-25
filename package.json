@@ -1,7 +1,7 @@
 {
   "name": "@did.coop/did-key-ed25519",
   "type": "module",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "lib/index.js",
   "exports": {
     ".": {

@@ -1,5 +1,11 @@
 # @did.coop/did-key-ed25519
 
+## 0.0.10
+
+### Patch Changes
+
+- ef1a63f: add typescript as devDependency to fix error when prepare script depends on it
+
 ## 0.0.9
 
 ### Patch Changes
