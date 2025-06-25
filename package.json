@@ -1,7 +1,7 @@
 {
   "name": "@did.coop/did-key-ed25519",
   "type": "module",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "lib/index.js",
   "exports": {
     ".": {
@@ -33,6 +33,7 @@
     "prepare": "npm run tsc"
   },
   "dependencies": {
+    "typescript": "^5.8.3",
     "@digitalbazaar/did-method-key": "^5.2.0",
     "@digitalbazaar/ed25519-verification-key-2020": "^4.2.0",
     "@types/node": "^22.15.33",
@@ -43,7 +44,6 @@
     "@eslint/js": "^9.18.0",
     "eslint-plugin-jsdoc": "^50.6.1",
     "glob": "^11.0.2",
-    "typescript": "^5.8.3",
     "typescript-eslint": "^8.20.0"
   },
   "publishConfig": {
