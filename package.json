@@ -29,7 +29,7 @@
     "byexample": "byexample -l javascript README.md",
     "lint": "eslint *.ts",
     "test": "glob -c 'node --import tsx --test' '*.test.*'",
-    "tsc": "tsc --build",
+    "tsc": "npx -p typescript tsc --build",
     "prepare": "npm run tsc"
   },
   "dependencies": {
