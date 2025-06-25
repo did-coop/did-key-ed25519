@@ -1,5 +1,11 @@
 # @did.coop/did-key-ed25519
 
+## 0.0.12
+
+### Patch Changes
+
+- set @types/node as a dependency not devDependency
+
 ## 0.0.11
 
 ### Patch Changes
