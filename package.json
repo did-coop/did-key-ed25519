@@ -1,7 +1,7 @@
 {
   "name": "@did.coop/did-key-ed25519",
   "type": "module",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "lib/index.js",
   "exports": {
     ".": {
@@ -29,7 +29,7 @@
     "byexample": "byexample -l javascript README.md",
     "lint": "eslint *.ts",
     "test": "glob -c 'node --import tsx --test' '*.test.*'",
-    "tsc": "npx -p typescript tsc --build",
+    "tsc": "tsc --build",
     "prepare": "npm run tsc"
   },
   "dependencies": {

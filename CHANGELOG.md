@@ -1,5 +1,11 @@
 # @did.coop/did-key-ed25519
 
+## 0.0.11
+
+### Patch Changes
+
+- prepare script no longer uses npx
+
 ## 0.0.10
 
 ### Patch Changes
